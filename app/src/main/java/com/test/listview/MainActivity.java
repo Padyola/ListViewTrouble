@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.listLocais);
+        listLocais = findViewById(R.id.listLocais);
 
         //Criar adaptador para a lista
 
